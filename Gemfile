@@ -13,12 +13,16 @@ group :jekyll_plugins do
     gem 'jekyll-target-blank'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'mini_racer', '~> 0.6.2'
+    gem 'listen'
+    gem 'nokogiri'
+
+# Commenting out to solve 'bundle install' crash
+#   gem 'mini_racer', '~> 0.6.2'
     gem 'unicode_utils'
     gem 'webrick'
 
 # For Windows environments
-    gem 'wdm', '>= 0.1.0' 
+#    gem 'wdm', '>= 0.1.0' 
 
 end
 group :other_plugins do
