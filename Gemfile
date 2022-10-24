@@ -15,6 +15,7 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'listen'
     gem 'nokogiri'
+    gem 'asciidoctor-diagram'
 
 # Commenting out to solve 'bundle install' crash
 #   gem 'mini_racer', '~> 0.6.2'
